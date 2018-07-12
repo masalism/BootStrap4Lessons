@@ -13,10 +13,16 @@
 <body>
 
     <div class="container bg-secondary text-light">
-        <div class="row">
-            <div class="col-md-3 col-lg-4 bg-primary">First Column</div>
-            <div class="col-md-6 col-lg-4 bg-success">Second Column</div>
-            <div class="col-md-3 col-lg-4 bg-danger">Third Column</div>
+        <div class="row align-items-end justify-content-around" style="height: 400px">
+            <div class="col-md-3 col-lg-4 bg-primary align-self-center">First Column</div>
+            <div class="col-md-9 col-lg-4 bg-success align-self-center">
+                <div class="row">
+                    <div class="col-6 bg-warning">Nested Column1</div>
+                    <div class="col-6 bg-info">Nested Column2</div>
+                </div>
+            </div>
+
+            <!-- <div class="col-md-3 col-lg-4 bg-danger align-self-center order-12">Third Column</div> -->
 
         </div>
     </div>
