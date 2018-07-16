@@ -256,4 +256,9 @@ header {
   }
 }
 
+/* CONTACTS */
+.contact {
+  background: url(images/form-img.jpeg) center center no-repeat /cover;
+
+}
 
