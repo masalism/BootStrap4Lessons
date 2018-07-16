@@ -258,7 +258,12 @@ header {
 
 /* CONTACTS */
 .contact {
-  background: url(images/form-img.jpeg) center center no-repeat /cover;
+  background: linear-gradient(105deg, rgba(21, 31, 32, 1) 0%, rgba(21, 31, 32, .95) 50%, transparent 50%), url(images/form-img.jpeg) center center no-repeat /cover;
 
 }
 
+.input {
+  background: transparent;
+  border-color: transparent;
+  border bottom: 2px solid #ccc;
+}
